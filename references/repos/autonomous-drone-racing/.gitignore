@@ -1,0 +1,17 @@
+# Private strategy documents
+research_docs/
+docs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Node modules (if using awesome-lint)
+node_modules/
