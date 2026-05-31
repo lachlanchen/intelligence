@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<style>
+  text { font-family: sans-serif, Arial, Helvetica; fill: #222222; }
+  .title { font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+  .subtitle { font-size: 14px; fill: #555555; }
+  .label { font-size: 13px; font-weight: bold; fill: #1a1a1a; }
+  .small { font-size: 11px; fill: #555555; }
+  .tiny { font-size: 9px; fill: #555555; }
+  .box { fill: #ffffff; stroke: #444444; stroke-width: 1.5; rx: 6; }
+  .accent-box { fill: #d0dde8; stroke: #3a6b8c; stroke-width: 1.5; rx: 6; }
+  .arrow { stroke: #3a6b8c; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+  .arrow-loop { stroke: #3a6b8c; stroke-width: 2; fill: none; marker-end: url(#arrowhead); stroke-dasharray: 8,4; }
+  .connector { stroke: #555555; stroke-width: 1.5; fill: none; }
+  .phase-box { fill: #ffffff; stroke: #444444; stroke-width: 1.5; rx: 6; }
+  .phase-accent { fill: #d0dde8; stroke: #3a6b8c; stroke-width: 2; rx: 6; }
+  .go { fill: #2d6a2d; font-weight: bold; }
+  .nogo { fill: #8b2020; font-weight: bold; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#3a6b8c"/>
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#555555"/>
+  </marker>
+</defs>
+
+<text x="800" y="40" text-anchor="middle" class="title">Phased Roadmap: From Resource Map to Organoid-on-Chip Closed Loop</text>
+<text x="800" y="62" text-anchor="middle" class="subtitle">Phases 0–5 with key outputs and go / no-go decision gates</text>
+<rect x="60" y="100" width="450" height="290" class="phase-box"/>
+<circle cx="95" cy="130" r="20" fill="#555555" stroke="none"/>
+<text x="95" y="135" text-anchor="middle" font-size="16" font-weight="bold" fill="white" font-family="sans-serif">0</text>
+<text x="130" y="135" text-anchor="start" class="title">Resource Map</text>
+<text x="80" y="170" text-anchor="start" class="small">• Curate literature &amp; datasets</text>
+<text x="80" y="194" text-anchor="start" class="small">• Inventory hardware + software</text>
+<text x="80" y="218" text-anchor="start" class="small">• Identify collaboration partners</text>
+<rect x="75" y="255" width="420" height="40" class="box" fill="#f0f5fa"/>
+<text x="85" y="271" text-anchor="start" class="label">Output:</text>
+<text x="85" y="287" text-anchor="start" class="small">Resource survey &amp; gap analysis</text>
+<rect x="75" y="310" width="420" height="40" class="box" fill="#f8faf6" stroke="#5a8a5a"/>
+<text x="85" y="326" text-anchor="start" class="label">Go Criterion:</text>
+<text x="85" y="342" text-anchor="start" class="small">≥3 viable data sources identified</text>
+<rect x="575" y="100" width="450" height="290" class="phase-box"/>
+<circle cx="610" cy="130" r="20" fill="#555555" stroke="none"/>
+<text x="610" y="135" text-anchor="middle" font-size="16" font-weight="bold" fill="white" font-family="sans-serif">1</text>
+<text x="645" y="135" text-anchor="start" class="title">Software-Only Loop</text>
+<text x="595" y="170" text-anchor="start" class="small">• Synthetic / public spike data</text>
+<text x="595" y="194" text-anchor="start" class="small">• Preprocessing &amp; feature extraction</text>
+<text x="595" y="218" text-anchor="start" class="small">• Reservoir model + stimulation policy</text>
+<rect x="590" y="255" width="420" height="40" class="box" fill="#f0f5fa"/>
+<text x="600" y="271" text-anchor="start" class="label">Output:</text>
+<text x="600" y="287" text-anchor="start" class="small">Working closed-loop simulation</text>
+<rect x="590" y="310" width="420" height="40" class="box" fill="#f8faf6" stroke="#5a8a5a"/>
+<text x="600" y="326" text-anchor="start" class="label">Go Criterion:</text>
+<text x="600" y="342" text-anchor="start" class="small">Readout R² ≥ 0.7, policy hit rate ≥ 75%</text>
+<rect x="1090" y="100" width="450" height="290" class="phase-box"/>
+<circle cx="1125" cy="130" r="20" fill="#555555" stroke="none"/>
+<text x="1125" y="135" text-anchor="middle" font-size="16" font-weight="bold" fill="white" font-family="sans-serif">2</text>
+<text x="1160" y="135" text-anchor="start" class="title">Public / Remote MEA Data</text>
+<text x="1110" y="170" text-anchor="start" class="small">• Download public MEA datasets</text>
+<text x="1110" y="194" text-anchor="start" class="small">• Adapt pipeline to real noise/artifacts</text>
+<text x="1110" y="218" text-anchor="start" class="small">• Validate burst/synchrony features</text>
+<rect x="1105" y="255" width="420" height="40" class="box" fill="#f0f5fa"/>
+<text x="1115" y="271" text-anchor="start" class="label">Output:</text>
+<text x="1115" y="287" text-anchor="start" class="small">Pipeline validated on real MEA data</text>
+<rect x="1105" y="310" width="420" height="40" class="box" fill="#f8faf6" stroke="#5a8a5a"/>
+<text x="1115" y="326" text-anchor="start" class="label">Go Criterion:</text>
+<text x="1115" y="342" text-anchor="start" class="small">Feature extraction robust on ≥2 datasets</text>
+<rect x="60" y="430" width="450" height="290" class="phase-box"/>
+<circle cx="95" cy="460" r="20" fill="#555555" stroke="none"/>
+<text x="95" y="465" text-anchor="middle" font-size="16" font-weight="bold" fill="white" font-family="sans-serif">3</text>
+<text x="130" y="465" text-anchor="start" class="title">Commercial MEA Adapter</text>
+<text x="80" y="500" text-anchor="start" class="small">• Acquire commercial MEA system</text>
+<text x="80" y="524" text-anchor="start" class="small">• Write hardware driver / API adapter</text>
+<text x="80" y="548" text-anchor="start" class="small">• Real-time spike stream → pipeline</text>
+<rect x="75" y="585" width="420" height="40" class="box" fill="#f0f5fa"/>
+<text x="85" y="601" text-anchor="start" class="label">Output:</text>
+<text x="85" y="617" text-anchor="start" class="small">Real-time MEA → pipeline bridge</text>
+<rect x="75" y="640" width="420" height="40" class="box" fill="#f8faf6" stroke="#5a8a5a"/>
+<text x="85" y="656" text-anchor="start" class="label">Go Criterion:</text>
+<text x="85" y="672" text-anchor="start" class="small">Latency &lt; 50 ms, spike sorting accuracy ≥ 85%</text>
+<rect x="575" y="430" width="450" height="290" class="phase-box"/>
+<circle cx="610" cy="460" r="20" fill="#555555" stroke="none"/>
+<text x="610" y="465" text-anchor="middle" font-size="16" font-weight="bold" fill="white" font-family="sans-serif">4</text>
+<text x="645" y="465" text-anchor="start" class="title">Remote Wetware / 2D Culture</text>
+<text x="595" y="500" text-anchor="start" class="small">• Remote API (FinalSpark / similar)</text>
+<text x="595" y="524" text-anchor="start" class="small">• or in-house 2D neuronal culture</text>
+<text x="595" y="548" text-anchor="start" class="small">• Closed-loop stim on living cells</text>
+<rect x="590" y="585" width="420" height="40" class="box" fill="#f0f5fa"/>
+<text x="600" y="601" text-anchor="start" class="label">Output:</text>
+<text x="600" y="617" text-anchor="start" class="small">First biological closed-loop demo</text>
+<rect x="590" y="640" width="420" height="40" class="box" fill="#f8faf6" stroke="#5a8a5a"/>
+<text x="600" y="656" text-anchor="start" class="label">Go Criterion:</text>
+<text x="600" y="672" text-anchor="start" class="small">Stable recording ≥ 24 h, stimulation response observed</text>
+<rect x="1090" y="430" width="450" height="290" class="phase-accent"/>
+<circle cx="1125" cy="460" r="20" fill="#3a6b8c" stroke="none"/>
+<text x="1125" y="465" text-anchor="middle" font-size="16" font-weight="bold" fill="white" font-family="sans-serif">5</text>
+<text x="1160" y="465" text-anchor="start" class="title">Organoid-on-Chip 3D</text>
+<text x="1110" y="500" text-anchor="start" class="small">• 3D shell/mesh MEA fabrication</text>
+<text x="1110" y="524" text-anchor="start" class="small">• Organoid culture + microfluidics</text>
+<text x="1110" y="548" text-anchor="start" class="small">• Full closed-loop bioelectronic demo</text>
+<rect x="1105" y="585" width="420" height="40" class="box" fill="#f0f5fa"/>
+<text x="1115" y="601" text-anchor="start" class="label">Output:</text>
+<text x="1115" y="617" text-anchor="start" class="small">Organoid-on-chip closed loop</text>
+<rect x="1105" y="640" width="420" height="40" class="box" fill="#f8faf6" stroke="#5a8a5a"/>
+<text x="1115" y="656" text-anchor="start" class="label">Go Criterion:</text>
+<text x="1115" y="672" text-anchor="start" class="small">3D readout ≥ 32 ch, organoid viability ≥ 7 days</text>
+<line x1="515" y1="245" x2="570" y2="245" class="arrow"/>
+<line x1="1030" y1="245" x2="1085" y2="245" class="arrow"/>
+<line x1="1315" y1="400" x2="285" y2="420" class="arrow"/>
+<line x1="515" y1="575" x2="570" y2="575" class="arrow"/>
+<line x1="1030" y1="575" x2="1085" y2="575" class="arrow"/>
+<rect x="200" y="760" width="1200" height="60" class="box" fill="#fafafa"/>
+<text x="800" y="784" text-anchor="middle" class="small">Each phase exits through a go/no-go gate. Red means stop, replan, or seek external resources.</text>
+<text x="800" y="804" text-anchor="middle" class="small">Phase 5 (organoid-on-chip 3D) is the target state but not a prerequisite for publishing intermediate results.</text>
+<rect x="60" y="780" width="120" height="50" class="box" fill="#fafafa"/>
+<rect x="68" y="790" width="30" height="14" class="phase-box"/>
+<text x="104" y="802" text-anchor="start" class="tiny">Standard phase</text>
+<rect x="68" y="810" width="30" height="14" class="phase-accent"/>
+<text x="104" y="822" text-anchor="start" class="tiny">Target phase (3D)</text>
+</svg>

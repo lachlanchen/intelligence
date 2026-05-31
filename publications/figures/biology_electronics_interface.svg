@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<style>
+  text { font-family: sans-serif, Arial, Helvetica; fill: #222222; }
+  .title { font-size: 22px; font-weight: bold; fill: #1a1a1a; }
+  .subtitle { font-size: 14px; fill: #555555; }
+  .label { font-size: 13px; font-weight: bold; fill: #1a1a1a; }
+  .small { font-size: 11px; fill: #555555; }
+  .tiny { font-size: 9px; fill: #555555; }
+  .box { fill: #ffffff; stroke: #444444; stroke-width: 1.5; rx: 6; }
+  .accent-box { fill: #d0dde8; stroke: #3a6b8c; stroke-width: 1.5; rx: 6; }
+  .arrow { stroke: #3a6b8c; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+  .arrow-loop { stroke: #3a6b8c; stroke-width: 2; fill: none; marker-end: url(#arrowhead); stroke-dasharray: 8,4; }
+  .connector { stroke: #555555; stroke-width: 1.5; fill: none; }
+  .phase-box { fill: #ffffff; stroke: #444444; stroke-width: 1.5; rx: 6; }
+  .phase-accent { fill: #d0dde8; stroke: #3a6b8c; stroke-width: 2; rx: 6; }
+  .go { fill: #2d6a2d; font-weight: bold; }
+  .nogo { fill: #8b2020; font-weight: bold; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#3a6b8c"/>
+  </marker>
+  <marker id="arrowhead-gray" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#555555"/>
+  </marker>
+</defs>
+
+<text x="800" y="40" text-anchor="middle" class="title">Bioelectronic Interface Stack</text>
+<text x="800" y="62" text-anchor="middle" class="subtitle">Closed-loop brain organoid – electronics interface for sensing and stimulation</text>
+<rect x="60" y="100" width="360" height="340" class="box" fill="#f5f7fa" stroke="#aaa" rx="8"/>
+<text x="240" y="90" text-anchor="middle" class="label">Biological Layer</text>
+<circle cx="190" cy="160" r="55" fill="#e8dcc8" stroke="#8b7355" stroke-width="2"/>
+<circle cx="190" cy="160" r="15" fill="none" stroke="#c4ae8a" stroke-width="0.8" stroke-dasharray="4,3"/>
+<circle cx="190" cy="160" r="28" fill="none" stroke="#c4ae8a" stroke-width="0.8" stroke-dasharray="4,3"/>
+<circle cx="190" cy="160" r="42" fill="none" stroke="#c4ae8a" stroke-width="0.8" stroke-dasharray="4,3"/>
+<circle cx="189.2" cy="159.1" r="1.2" fill="#9b8c7a"/>
+<circle cx="188.3" cy="170.6" r="1.2" fill="#9b8c7a"/>
+<circle cx="187.2" cy="127.6" r="1.2" fill="#9b8c7a"/>
+<circle cx="193.3" cy="157.4" r="1.2" fill="#9b8c7a"/>
+<circle cx="188.7" cy="160.7" r="1.2" fill="#9b8c7a"/>
+<circle cx="194.7" cy="183.8" r="1.2" fill="#9b8c7a"/>
+<circle cx="199.4" cy="161.6" r="1.2" fill="#9b8c7a"/>
+<circle cx="174.6" cy="138.8" r="1.2" fill="#9b8c7a"/>
+<circle cx="195.2" cy="187.8" r="1.2" fill="#9b8c7a"/>
+<circle cx="190.1" cy="159.7" r="1.2" fill="#9b8c7a"/>
+<circle cx="201.5" cy="128.5" r="1.2" fill="#9b8c7a"/>
+<circle cx="186.0" cy="166.3" r="1.2" fill="#9b8c7a"/>
+<circle cx="205.6" cy="155.7" r="1.2" fill="#9b8c7a"/>
+<circle cx="193.9" cy="162.6" r="1.2" fill="#9b8c7a"/>
+<circle cx="206.7" cy="136.3" r="1.2" fill="#9b8c7a"/>
+<circle cx="202.3" cy="127.2" r="1.2" fill="#9b8c7a"/>
+<circle cx="144.5" cy="149.5" r="1.2" fill="#9b8c7a"/>
+<circle cx="170.9" cy="178.3" r="1.2" fill="#9b8c7a"/>
+<circle cx="204.2" cy="133.9" r="1.2" fill="#9b8c7a"/>
+<circle cx="207.9" cy="138.8" r="1.2" fill="#9b8c7a"/>
+<circle cx="189.4" cy="157.9" r="1.2" fill="#9b8c7a"/>
+<circle cx="191.9" cy="173.8" r="1.2" fill="#9b8c7a"/>
+<circle cx="199.8" cy="165.4" r="1.2" fill="#9b8c7a"/>
+<circle cx="200.7" cy="167.9" r="1.2" fill="#9b8c7a"/>
+<circle cx="178.5" cy="146.8" r="1.2" fill="#9b8c7a"/>
+<circle cx="183.1" cy="167.3" r="1.2" fill="#9b8c7a"/>
+<circle cx="185.2" cy="204.7" r="1.2" fill="#9b8c7a"/>
+<circle cx="172.5" cy="136.6" r="1.2" fill="#9b8c7a"/>
+<circle cx="206.6" cy="190.8" r="1.2" fill="#9b8c7a"/>
+<circle cx="199.4" cy="175.6" r="1.2" fill="#9b8c7a"/>
+<circle cx="220.7" cy="158.0" r="1.2" fill="#9b8c7a"/>
+<circle cx="159.2" cy="148.5" r="1.2" fill="#9b8c7a"/>
+<circle cx="210.5" cy="128.9" r="1.2" fill="#9b8c7a"/>
+<circle cx="190.2" cy="161.5" r="1.2" fill="#9b8c7a"/>
+<circle cx="184.9" cy="171.8" r="1.2" fill="#9b8c7a"/>
+<circle cx="201.0" cy="203.9" r="1.2" fill="#9b8c7a"/>
+<circle cx="200.8" cy="149.4" r="1.2" fill="#9b8c7a"/>
+<circle cx="179.4" cy="144.3" r="1.2" fill="#9b8c7a"/>
+<circle cx="208.9" cy="148.7" r="1.2" fill="#9b8c7a"/>
+<circle cx="188.9" cy="171.8" r="1.2" fill="#9b8c7a"/>
+<text x="190" y="232" text-anchor="middle" class="label">Brain Organoid</text>
+<text x="190" y="248" text-anchor="middle" class="tiny">(cortical spheroid)</text>
+<rect x="75" y="290" width="240" height="22" class="box" fill="#d8e8f0" stroke="#8aafc8"/>
+<text x="195" y="305" text-anchor="middle" class="small">Hydrogel / ECM scaffold</text>
+<rect x="75" y="320" width="240" height="18" class="box" fill="#e8f0f8" stroke="#b0c8d8"/>
+<text x="195" y="333" text-anchor="middle" class="small">Culture Medium (NB/B27)</text>
+<rect x="75" y="350" width="240" height="30" class="box"/>
+<text x="195" y="369" text-anchor="middle" class="small">Perfusion Microfluidic Chip</text>
+<text x="195" y="378" text-anchor="middle" class="tiny">flow, O₂ gradients, dosing</text>
+<rect x="460" y="100" width="280" height="340" class="box" fill="#fafafa" stroke="#aaa" rx="8"/>
+<text x="600" y="90" text-anchor="middle" class="label">Electrode Interface</text>
+<text x="600" y="120" text-anchor="middle" class="label">3D Shell / Mesh MEA</text>
+<circle cx="500" cy="140" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="528" cy="140" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="556" cy="140" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="584" cy="140" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="612" cy="140" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="640" cy="140" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="668" cy="140" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="696" cy="140" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="500" cy="162" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="528" cy="162" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="556" cy="162" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="584" cy="162" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="612" cy="162" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="640" cy="162" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="668" cy="162" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="696" cy="162" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="500" cy="184" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="528" cy="184" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="556" cy="184" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="584" cy="184" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="612" cy="184" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="640" cy="184" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="668" cy="184" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="696" cy="184" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="500" cy="206" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="528" cy="206" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="556" cy="206" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="584" cy="206" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="612" cy="206" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="640" cy="206" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="668" cy="206" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="696" cy="206" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="500" cy="228" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="528" cy="228" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="556" cy="228" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="584" cy="228" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="612" cy="228" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="640" cy="228" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="668" cy="228" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="696" cy="228" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="500" cy="250" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="528" cy="250" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="556" cy="250" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="584" cy="250" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="612" cy="250" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="640" cy="250" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="668" cy="250" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<circle cx="696" cy="250" r="3" fill="#3a6b8c" stroke="#3a6b8c" stroke-width="0.5"/>
+<text x="600" y="285" text-anchor="middle" class="small">64–256 channel array</text>
+<text x="600" y="300" text-anchor="middle" class="tiny">(Pt/Ir, PEDOT:PSS, liquid metal)</text>
+<rect x="515" y="320" width="170" height="22" class="box"/>
+<text x="600" y="335" text-anchor="middle" class="small">Reference &amp; Ground Electrodes</text>
+<line x1="740" y1="230" x2="770" y2="230" class="connector"/>
+<rect x="770" y="130" width="170" height="50" class="accent-box"/>
+<text x="855" y="148" text-anchor="middle" class="label">Low-Noise Amplifier</text>
+<text x="855" y="168" text-anchor="middle" class="tiny">(Intan / Open Ephys)</text>
+<rect x="770" y="210" width="170" height="50" class="box"/>
+<text x="855" y="228" text-anchor="middle" class="label">ADC + FPGA</text>
+<text x="855" y="248" text-anchor="middle" class="tiny">16-bit, 30 kS/s/ch</text>
+<rect x="770" y="290" width="170" height="70" class="box"/>
+<text x="855" y="308" text-anchor="middle" class="label">Computer Controller</text>
+<text x="855" y="325" text-anchor="middle" class="tiny">Real-time DSP,</text>
+<text x="855" y="340" text-anchor="middle" class="tiny">spike sorting, decoder</text>
+<text x="855" y="355" text-anchor="middle" class="tiny">stimulus sequencer</text>
+<rect x="770" y="390" width="170" height="50" class="accent-box"/>
+<text x="855" y="408" text-anchor="middle" class="label">Charge-Balanced Stimulator</text>
+<text x="855" y="428" text-anchor="middle" class="tiny">(biphasic, ±10 µA)</text>
+<rect x="770" y="465" width="170" height="50" class="box" fill="#fdf2f2" stroke="#c04040" stroke-width="2"/>
+<text x="855" y="483" text-anchor="middle" class="label">⚠ Safety Gate</text>
+<text x="855" y="503" text-anchor="middle" class="tiny">charge limit, thermal cutoff</text>
+<line x1="855" y1="180" x2="855" y2="210" class="arrow"/>
+<line x1="855" y1="260" x2="855" y2="290" class="arrow"/>
+<line x1="855" y1="360" x2="855" y2="390" class="arrow"/>
+<line x1="855" y1="440" x2="855" y2="465" class="arrow"/>
+<path d="M 770 490 L 710 490 L 710 160 L 245 160" class="arrow-loop" marker-end="url(#arrowhead)"/>
+<text x="700" y="475" text-anchor="end" class="tiny">stimulation</text>
+<path d="M 420 160 L 420 160" class="connector"/>
+<text x="430" y="152" text-anchor="start" class="tiny">neural signals</text>
+<text x="800" y="490" text-anchor="middle" class="label">Closed-Loop Bioelectronic Interface</text>
+<rect x="60" y="470" width="340" height="85" class="box" fill="#fafafa"/>
+<text x="70" y="488" text-anchor="start" class="small">Key:</text>
+<rect x="105" y="478" width="14" height="14" class="accent-box"/>
+<text x="125" y="490" text-anchor="start" class="tiny">Active electronics (amplifier, stimulator)</text>
+<rect x="105" y="498" width="14" height="14" class="box"/>
+<text x="125" y="510" text-anchor="start" class="tiny">Processing / control</text>
+<rect x="105" y="518" width="14" height="14" class="box" fill="#fdf2f2" stroke="#c04040"/>
+<text x="125" y="530" text-anchor="start" class="tiny">Safety-critical element</text>
+<line x1="105" y1="545" x2="119" y2="545" class="arrow-loop"/>
+<text x="125" y="550" text-anchor="start" class="tiny">Closed-loop feedback path</text>
+</svg>
