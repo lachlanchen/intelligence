@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/status-research%20roadmap-blue)](#)
 
 **Website:** [ideas.onlyideas.art](https://ideas.onlyideas.art)  
-**Companion project:** [OrganoidVision](https://github.com/lachlanchen/organoid-vision)
+**Companion project:** [OrganoidVision](https://github.com/lachlanchen/OrganoidVision)
 
 </div>
 
@@ -54,7 +54,7 @@ The project is intentionally staged. Start with papers and simulated MEA spikes,
 
 ## Companion: OrganoidVision
 
-[OrganoidVision](https://github.com/lachlanchen/organoid-vision) explores retinal organoids and bio-hybrid vision systems: organoid sensors, optical stimulation, microfluidic interfaces, and event-based decoding.
+[OrganoidVision](https://github.com/lachlanchen/OrganoidVision) explores retinal organoids and bio-hybrid vision systems: organoid sensors, optical stimulation, microfluidic interfaces, and event-based decoding.
 
 Use the two projects together:
 
@@ -68,9 +68,9 @@ If you use this repository, cite the roadmap paper:
 ```bibtex
 @misc{chen2026organoidintelligence,
   title        = {Organoid Brain-on-a-Chip Systems: Resource Map, Bioelectronic Interface Strategy and First-Demo Roadmap},
-  author       = {Chen, Lachlan and AgintiFlow},
+  author       = {Chen, Lachlan and AgInTiFlow},
   year         = {2026},
-  institution  = {Aginti Lab, LazyingArt LLC},
+  institution  = {AgInTi Lab, LazyingArt LLC},
   howpublished = {\url{https://github.com/lachlanchen/intelligence}},
   note         = {Research roadmap and repository}
 }
@@ -81,9 +81,9 @@ For the resource-map manuscript:
 ```bibtex
 @misc{chen2026organoidbrainchipmap,
   title        = {Organoid Brain-on-a-Chip Systems: A Resource Map for Wetware Computing, Disease Models and Neural Interfaces},
-  author       = {Chen, Lachlan and AgintiFlow},
+  author       = {Chen, Lachlan and AgInTiFlow},
   year         = {2026},
-  institution  = {Aginti Lab, LazyingArt LLC},
+  institution  = {AgInTi Lab, LazyingArt LLC},
   howpublished = {\url{https://github.com/lachlanchen/intelligence}},
   note         = {Research survey and curated resource map}
 }
@@ -93,11 +93,11 @@ For the companion OrganoidVision project:
 
 ```bibtex
 @misc{chen2026organoidvision,
-  title        = {Bio-Hybrid Vision Systems: Engineering Retinal Organoids as Advanced Imaging Sensors},
-  author       = {Chen, Lachlan and AgintiFlow},
+  title        = {OrganoidVision: Bio-Hybrid Retinal Organoids as Living Event-Based Imaging Sensors},
+  author       = {Chen, Lachlan and AgInTiFlow},
   year         = {2026},
-  institution  = {Aginti Lab, LazyingArt LLC},
-  howpublished = {\url{https://github.com/lachlanchen/organoid-vision}},
+  institution  = {AgInTi Lab, LazyingArt LLC},
+  howpublished = {\url{https://github.com/lachlanchen/OrganoidVision}},
   note         = {Companion research manuscript and repository}
 }
 ```
@@ -108,5 +108,5 @@ For the companion OrganoidVision project:
 
 ## Authors
 
-**Lachlan Chen** and **AgintiFlow**  
-**Aginti Lab, LazyingArt LLC**
+**Lachlan Chen** and **AgInTiFlow**  
+**AgInTi Lab, LazyingArt LLC**
